@@ -1,2 +1,2 @@
 # Leetcode Sorting Algorithems
-In these section practicing and solved sorting algorithms problems
+In this section practiced and solved sorting algorithms problems
