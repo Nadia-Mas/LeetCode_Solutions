@@ -2,17 +2,17 @@ class Solution:
     def findDiagonalOrder(self, mat: list[list[int]]) -> list[int]:
 
         
-        # Check for empty matrices
+       
         if not mat or not mat[0]:
             return []
         
-        # Variables to track the size of the mat
+       
 
         N, M = len(mat
         ), len(mat
         [0])
         
-        # The two arrays as explained in the algorithm
+        
         result, intermediate = [], []
         
         # We have to go over all the elements in the first
