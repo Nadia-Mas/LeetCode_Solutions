@@ -33,3 +33,10 @@ class Solution:
                 c = 0
         a.append(c)
         return max(a)
+    
+        ##Solution 03
+        # consecutive = result = 0
+        # for n in nums:
+        #     consecutive = consecutive*n+n
+        #     result = max(result, consecutive)
+        # return result
