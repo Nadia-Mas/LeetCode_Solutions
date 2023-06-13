@@ -10,3 +10,5 @@ class Solution:
                 counter += 1
 
         return counter
+    
+        #return len([x for x in nums if  len(str(x))%2==0])
