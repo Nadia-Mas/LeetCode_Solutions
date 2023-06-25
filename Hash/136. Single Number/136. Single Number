@@ -1,0 +1,9 @@
+class Solution:
+    def singleNumber(self, nums: list[int]) -> int:
+        
+        hashset = set(nums)
+        
+        for i in hashset:
+            nums.pop(nums.index(i))
+            if i not in nums:
+                return i
